@@ -1,7 +1,9 @@
 # CREDIT-CARD-FRAUD-DETECTION
 As part of my Codesoft internship, I completed a project focused on detecting fraudulent credit card transactions using machine learning. The goal was to classify transactions as fraudulent or genuine.
 
+
 Steps Taken:
+
 Data Preprocessing & Normalization: I began by preprocessing the transaction data, handling missing or erroneous values and normalizing the features to ensure consistent scaling across variables. This was critical for improving the performance of the machine learning models.
 
 Handling Class Imbalance: The dataset had a significant imbalance between fraudulent and genuine transactions. To address this, I implemented techniques like oversampling the minority class (fraudulent transactions) and undersampling the majority class (genuine transactions). Additionally, I explored the Synthetic Minority Over-sampling Technique (SMOTE) to create synthetic examples of the minority class, further balancing the dataset.
@@ -15,4 +17,5 @@ Model Evaluation: The performance of the models was evaluated using key metrics 
 Improving Results: To further enhance the model, I revisited the class imbalance issue and experimented with various oversampling and undersampling techniques. I fine-tuned the models to find the optimal balance between sensitivity (recall) and specificity (precision).
 
 Outcome:
+
 Through this project, I successfully built a machine learning model that accurately classified credit card transactions as fraudulent or genuine. The use of Logistic Regression and Random Forests yielded high precision, recall, and F1-scores, demonstrating the model's ability to perform well in real-world scenarios. This project deepened my understanding of class imbalance issues and the importance of evaluation metrics in machine learning.
